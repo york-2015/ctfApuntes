@@ -1,0 +1,15 @@
+-descargar algo de la pagina
+wget http://121.112.12.13/key-1.txt
+
+wpscan
+
+crunch 3 5 abcdefg12345678 -o miarchivo.txt
+crunch min max abcdefg12345678 -archivo nombredearchivo
+
+curl -s "www.google.com/punpun"| grep -oE "comienza{.*}" | head -n 1
+curl -s "www.google.com/punpun"| grep -oE "loQueQuierasBuscar" | head -n 1
+
+
+buscar:
+robots.txt
+/files/
