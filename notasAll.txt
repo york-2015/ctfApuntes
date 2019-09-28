@@ -13,3 +13,12 @@ curl -s "www.google.com/punpun"| grep -oE "loQueQuierasBuscar" | head -n 1
 buscar:
 robots.txt
 /files/
+
+
+
+with open("listaEJ10.txt") as f:
+  datafile = f.readlines()
+  for palabra in datafile:
+    if len(palabra) > 19:
+      print(palabra)
+   
